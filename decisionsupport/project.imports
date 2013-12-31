@@ -1,0 +1,19 @@
+<configuration>
+  <imports>
+    <imports>
+      <import>
+        <type>com.mds.factmodel.Amount</type>
+      </import>
+      <import>
+        <type>com.mds.factmodel.Symptome</type>
+      </import>
+      <import>
+        <type>com.mds.factmodel.FichePatient</type>
+      </import>
+      <import>
+        <type>com.mds.factmodel.Result</type>
+      </import>
+    </imports>
+  </imports>
+  <version>1.0</version>
+</configuration>

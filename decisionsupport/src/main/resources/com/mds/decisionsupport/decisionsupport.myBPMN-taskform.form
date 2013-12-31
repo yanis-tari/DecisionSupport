@@ -1,0 +1,78 @@
+
+<form id="23160073">
+<property name="subject" value=""/>
+<property name="name" value="decisionsupport.myBPMN-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="symptome_code" type="InputText" id="1498246490">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;code (symptome)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="symptome/code"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="symptome_comment" type="InputText" id="1290424963">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;comment (symptome)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="symptome/comment"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="symptome_informationType" type="InputText" id="1471771545">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;informationType (symptome)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="symptome/informationType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="symptome_linked" type="MultipleSubform" id="2049594745">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;linked (symptome)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="symptome/linked"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="4" name="symptome_localName" type="InputText" id="208804507">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;localName (symptome)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="symptome/localName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="symptome_location" type="MultipleSubform" id="893631219">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;location (symptome)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="symptome/location"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="6" name="symptome_nomenclature" type="InputText" id="42642403">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;nomenclature (symptome)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="symptome/nomenclature"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="symptome_quantity" type="MultipleSubform" id="1718988023">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;quantity (symptome)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="symptome/quantity"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="8" name="symptome_systemeCode" type="InputText" id="163422282">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;systemeCode (symptome)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="symptome/systemeCode"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="symptome_timeSymptome" type="InputText" id="1621895763">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;timeSymptome (symptome)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="symptome/timeSymptome"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="symptome" value="com.mds.factmodel.Symptome" id="symptome"/>
+</form>

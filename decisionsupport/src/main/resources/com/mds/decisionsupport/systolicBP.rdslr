@@ -1,0 +1,18 @@
+package com.mds.decisionsupport;
+
+import com.mds.factmodel.FichePatient;
+import com.mds.factmodel.Symptome;
+import com.mds.factmodel.Result;
+
+rule "systolicBP"
+	dialect "mvel"
+	ruleflow-group "triage"
+	when
+		There is a patient with
+		- Age over '15' year
+		The EMR of patient contains a medical item  with
+		-  type is 'Symptome'
+		- name is equal to 'systolicBP'
+	then
+		return result "triage" with "5" for patient
+end
