@@ -1,0 +1,17 @@
+package com.mds.decisionsupport;
+
+rule "test"
+	dialect "mvel"
+	ruleflow-group "triage"
+	when
+		mi : MedicalItem( itemName == "pulse" , itemType == "vitalSign" )
+		MedicalReccord( medicalItems contains mi )
+	then
+		java.text.SimpleDateFormat sdf = new java.text.SimpleDateFormat("dd-MMM-yyyy");
+		InferenceEngineResult fact0 = new InferenceEngineResult();
+		fact0.setValue( "2" );
+		fact0.setRequest( "triage" );
+		fact0.setSuggestOfAnAction( "triage suggest" );
+		fact0.setResultDate( sdf.parse("03-Jan-2014") );
+		insert( fact0 );
+end

@@ -1,0 +1,1 @@
+[when] the medical {item} is of type "{type:ENUM:MedicalItem.itemType}" = ${item} : MedicalItem(itemType == "{type}")

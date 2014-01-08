@@ -1,0 +1,2 @@
+'MedicalItem.itemType' : ['motif','subjective','objective','diagnostic','action','vitalSign']
+'MedicalItem.nomenclatureName' : ['snomed','icd10','icd9']

@@ -1,0 +1,71 @@
+
+<form id="344297453">
+<property name="subject" value=""/>
+<property name="name" value="decisionsupport.triage-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="mr_birthDate" type="InputText" id="390530813">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;birthDate (mr)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="mr/birthDate"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="mr_firstName" type="InputText" id="78443456">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;firstName (mr)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="mr/firstName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="mr_lastName" type="InputText" id="146453276">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;lastName (mr)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="mr/lastName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="mr_mail" type="InputText" id="496498917">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;mail (mr)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="mr/mail"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="mr_phoneNumber" type="InputText" id="695314334">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;phoneNumber (mr)quot;"/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="mr/phoneNumber"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="mr_medicalItems" type="MultipleSubform" id="1857515066">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="labelCSSClass" value=""/>
+<property name="labelCSSStyle" value=""/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;medicalItems (mr)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="styleclass" value=""/>
+<property name="cssStyle" value=""/>
+<property name="inputBinding" value=""/>
+<property name="outputBinding" value="mr/medicalItems"/>
+<property name="defaultSubform" value="LineMedicalItem.form"/>
+<property name="previewSubform" value="LineMedicalItem.form"/>
+<property name="tableSubform" value="LineMedicalItem.form"/>
+<property name="newItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="addItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="cancelItemText" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="deleteItems" value="true"/>
+<property name="updateItems" value="true"/>
+<property name="visualizeItems" value="true"/>
+<property name="hideCreateItem" value="false"/>
+<property name="expanded" value="true"/>
+<property name="enableTableEnterData" value="true"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="dataModelerEntry" outId="mr" value="com.mds.decisionsupport.MedicalReccord" id="mr"/>
+</form>
